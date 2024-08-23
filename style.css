@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(154, 154, 154); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/pexels-catiamatos-1072179.jpg);
+    background-size: cover;
+}
+.main >div{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 50px;
+}
+.head{
+    animation: iq 0.5s linear 0.1s infinite;
+
+}
+@keyframes iq{
+    0%{
+      transform: translateY(0px);
+    }
+    50%{
+       transform: translateY(-15px);
+       opacity: 0.6;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.head1{
+    animation: iq 0.5s linear 0.2s infinite;
+    
+
+}.head2{
+   
+    animation: iq 0.5s linear 0.3s infinite;
+
+}
